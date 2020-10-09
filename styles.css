@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+
 .bg-video
 {
     position: fixed;
@@ -7,4 +9,16 @@
     left: 0;
     object-fit: cover;
     z-index: -100;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    font-family: 'Sonsie One', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
 }

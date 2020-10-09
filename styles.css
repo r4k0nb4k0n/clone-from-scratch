@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 .bg-video
 {
@@ -21,4 +22,27 @@
     font-size: 2rem;
     font-weight: bolder;
     color: white;
+}
+
+.slogan
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+.main
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
